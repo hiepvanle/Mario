@@ -1,0 +1,30 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N806" />
+          <option value="N803" />
+          <option value="N801" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="tuple.isnumeric" />
+          <option value="HW4.*" />
+          <option value="aced" />
+          <option value="django.contrib.contenttypes.*" />
+          <option value="flask_restful" />
+          <option value="int.rowcount" />
+          <option value="start_api.utils" />
+          <option value="werkzeug.get_json.args" />
+          <option value="flask_cors" />
+          <option value="str.connections" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
